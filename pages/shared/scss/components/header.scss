@@ -1,0 +1,188 @@
+.header-container {
+  width: 100%;
+  @include sm {
+    position: relative;
+  }
+  .navbar {
+    background-color: transparent;
+    padding: 15px 0px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .robuy-logo {
+      font-family: "Inter";
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 120%;
+      display: flex;
+      color: #1d2123;
+      gap: 6px;
+      margin-left: 23px;
+      margin-top: 10px;
+      width: 120px;
+    }
+    .tabContainer {
+      max-width: 696px;
+      width: 100%;
+      border-radius: 18px;
+      background: #eaeef0;
+      color: #95a0a7;
+      @include sm {
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        overflow: scroll;
+        margin-top: 21px;
+        margin-left: 15px;
+      }
+      .btn-group-container {
+        padding: 2px;
+        @include sm {
+          width: 50%;
+          padding: 0px;
+        }
+        .btn-group-container-child {
+          display: flex;
+          justify-content: space-between;
+          height: 40px;
+          @include sm {
+            padding: 2px;
+            margin: 1px;
+          }
+          .btn-1 {
+            padding: 8px;
+            gap: 10px;
+            border: none;
+            font-family: "Inter";
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: inherit;
+            color: #95a0a7;
+            padding-left: 19px;
+
+            @include sm {
+              background-color: white;
+              border-radius: 12px;
+              margin-top: 0px;
+              margin-bottom: 2px;
+              margin-left: 1px;
+              color: black;
+              font-weight: 600;
+              font-size: 13px;
+              line-height: 160.02%;
+              color: #1d2123;
+              min-width: 165px;
+            }
+          }
+          .btn-2 {
+            padding: 8px;
+            gap: 10px;
+            border: none;
+            font-family: "Inter";
+            font-weight: 600;
+            font-size: 14px;
+            color: #95a0a7;
+            text-transform: inherit;
+            padding-left: 19px;
+            @include sm {
+              min-width: 160px;
+            }
+          }
+          .btn-3 {
+            padding: 8px;
+            gap: 10px;
+            border: none;
+            font-family: "Inter";
+            font-weight: 600;
+            font-size: 14px;
+            color: #95a0a7;
+            text-transform: inherit;
+            padding-left: 19px;
+            @include sm {
+              min-width: 160px;
+            }
+          }
+          .btn-4 {
+            padding: 8px;
+            gap: 10px;
+            border: none;
+            font-family: "Inter";
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: inherit;
+            color: #95a0a7;
+            padding-left: 19px;
+            @include sm {
+              min-width: 160px;
+            }
+          }
+          .btn-5 {
+            background-color: white;
+            border: none;
+            border-radius: 12px;
+            margin-top: 2px;
+            gap: 10px;
+            font-size: 14px;
+            margin-bottom: 2px;
+            text-transform: inherit;
+            padding-left: 12px;
+            padding-right: 11px;
+            margin-left: 0px;
+            color: #1d2123;
+            @include sm {
+              min-width: 160px;
+            }
+          }
+        }
+      }
+    }
+    .button-icon {
+      display: flex;
+      gap: 16px;
+      margin-right: 23px;
+
+      .twiter-box {
+        margin-top: 14px;
+
+        svg {
+          fill: #95a0a7;
+          cursor: pointer;
+          &:hover {
+            fill: #1d2123;
+          }
+        }
+      }
+      .vector {
+        margin-top: 14px;
+        svg {
+          fill: #95a0a7;
+          cursor: pointer;
+          &:hover {
+            fill: #1d2123;
+          }
+        }
+      }
+      .btnlast {
+        width: 4.5vw;
+        height: 42px;
+
+        background: linear-gradient(
+            89.08deg,
+            #4095d2 0.84%,
+            #aa39d2 37.68%,
+            #c0537d 61.71%,
+            #d38c39 97.89%
+          ),
+          #8d00d0;
+        border-radius: 31px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 160.02%;
+        font-family: "Inter";
+        color: #ffffff;
+        text-transform: inherit;
+      }
+    }
+  }
+}
