@@ -79,10 +79,13 @@
       }
     }
     .image-post {
-      width: 294px;
-      object-fit: contain;
       border-bottom-right-radius: 16px;
       border-bottom-left-radius: 16px;
+
+      @include sm {
+        width: 294px;
+        object-fit: contain;
+      }
     }
     .blog-card {
       padding: 0px;
