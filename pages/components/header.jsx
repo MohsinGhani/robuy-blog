@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <div className="header-container">
-      <AppBar component="nav" className="navbar">
+      <AppBar className="navbar">
         <Typography variant="h6" component="div" className="robuy-logo">
           <svg
             width="16"

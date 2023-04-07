@@ -1,0 +1,11 @@
+.top-card-Container {
+  .top-card-child {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}

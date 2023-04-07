@@ -1,11 +1,19 @@
 import React from "react";
 import Header from "./header";
+import TopCard from "./topCard";
+import Tags from "./tags";
 
 const Robuy = () => {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <div className="top-card-Container">
+        <div className="top-card-child">
+          <TopCard />
+          <Tags />
+        </div>
+      </div>
+    </>
   );
 };
 
