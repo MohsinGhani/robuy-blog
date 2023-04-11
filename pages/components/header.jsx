@@ -11,7 +11,12 @@ const Header = () => {
   return (
     <div className="header-container">
       <AppBar className="navbar">
-        <Typography variant="h6" component="div" className="robuy-logo">
+        <Typography
+          variant="h6"
+          component="div"
+          className="robuy-logo"
+          onClick={() => router.push("/")}
+        >
           <svg
             width="16"
             height="19"

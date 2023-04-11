@@ -1,0 +1,18 @@
+.cardParent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .blogList_container {
+    max-width: 658px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    @include sm {
+      max-width: 358px;
+      margin-top: 0px;
+    }
+  }
+}

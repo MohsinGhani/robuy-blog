@@ -1,0 +1,95 @@
+.post-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  max-width: 658px;
+  gap: 14px;
+  border-radius: 16px;
+  position: relative;
+  margin-bottom: 20px;
+  @include sm {
+    max-width: 343px;
+    margin-top: 25px;
+  }
+  .main-post {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    @include sm {
+      width: 100%;
+    }
+
+    .post-card-img {
+      height: 180px;
+      .post-img-btn {
+        position: absolute;
+        left: 0;
+        top: 8%;
+        bottom: 0;
+        padding: 8px 12px;
+        height: 35px;
+        background: #ffffff;
+        border-radius: 22px;
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 120%;
+        text-transform: inherit;
+        color: #8d00d0;
+        margin-left: 24px;
+      }
+      img {
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        @include sm {
+          width: 100%;
+        }
+      }
+    }
+    .post-card-content-container {
+      margin: 8px;
+
+      .arrow-img {
+        display: flex;
+        justify-content: space-between;
+        @include sm {
+          margin-top: 10px;
+        }
+      }
+      .post-card-content {
+        padding-left: 20px;
+        padding-bottom: 24px;
+
+        .post-card-heading {
+          font-family: "Inter";
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 120%;
+          margin-bottom: 16px;
+          color: #1d2123;
+          width: 280px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 2;
+        }
+        .post-card-prg {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 160.02%;
+          width: 280px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 2;
+          color: #95a0a7;
+        }
+      }
+    }
+  }
+}

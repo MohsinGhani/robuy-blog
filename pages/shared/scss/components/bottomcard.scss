@@ -1,0 +1,59 @@
+.bottomCard {
+  width: 658px;
+  display: flex;
+  height: 260px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 14px;
+
+  .bottom-child {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 160px;
+    height: 260px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+  }
+  @include sm {
+    display: none;
+  }
+  .border-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 0px 5px;
+  }
+  .bottom-card-content {
+    padding: 10px 20px 0px 20px;
+
+    .btn {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 120%;
+      color: #8d00d0;
+      background: rgba(141, 0, 208, 0.1);
+      border-radius: 22px;
+    }
+    .prgaph {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 160.02%;
+      color: #95a0a7;
+    }
+  }
+  .border-container-last {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 25px;
+    color: #f2f4f5;
+    padding: 5px 5px 0px 5px;
+  }
+}

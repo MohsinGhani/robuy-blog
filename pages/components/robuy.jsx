@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./header";
 import TopCard from "./topCard";
 import Tags from "./tags";
+import BlogList from "./blogList";
 
 const Robuy = () => {
   return (
@@ -11,6 +12,7 @@ const Robuy = () => {
         <div className="top-card-child">
           <TopCard />
           <Tags />
+          <BlogList />
         </div>
       </div>
     </>

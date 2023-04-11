@@ -1,0 +1,40 @@
+.tags-container {
+  max-width: 350px;
+  margin-top: 20px;
+  .tags-icon {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+
+    .icon-prg {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160.02%;
+      color: #1d2123;
+    }
+  }
+  .tags-btn {
+    margin-top: 10px;
+    @include sm {
+      max-width: 425px;
+      overflow: hidden;
+      overflow: scroll;
+    }
+    .tags-btn1 {
+      border: none;
+      align-items: center;
+      font-family: "Inter";
+      gap: 8px;
+      text-transform: inherit;
+      height: 35px;
+      font-weight: 600;
+      font-size: 16px;
+      color: #8d00d0;
+      margin-right: 10px;
+      background: #ffffff;
+      border-radius: 22px;
+    }
+  }
+}
