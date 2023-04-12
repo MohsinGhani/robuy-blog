@@ -5,6 +5,7 @@ import Header from "../components/header";
 import BlogDetails from "../components/blogDetails";
 import PostCard from "../components/postCard";
 import Bottomcard from "../components/bottomcard";
+import Tags from "../components/tags";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <div className="top-card-Container">
         <div className="top-card-child">
           <BlogDetails />
+          <Tags />
           <div className="post-card">
             <PostCard />
             <Bottomcard />

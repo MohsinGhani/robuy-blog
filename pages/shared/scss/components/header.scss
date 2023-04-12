@@ -34,12 +34,12 @@
       background: #eaeef0;
       color: #95a0a7;
       @include sm {
-        width: 100%;
+        width: 90%;
         position: absolute;
         top: 50px;
         overflow: scroll;
         margin-top: 21px;
-        margin-left: 15px;
+        margin-left: 22px;
       }
       .btn-group-container {
         padding: 2px;

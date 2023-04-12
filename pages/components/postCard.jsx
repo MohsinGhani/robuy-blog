@@ -12,7 +12,7 @@ const PostCard = () => {
           <div className="main-post">
             <div className="post-card-img" onClick={() => router.push("/blog")}>
               <img src={blog?.image} alt="" />
-              <Button className="post-img-btn">Новости</Button>
+              <Button className="post-img-btn">{blog?.btitle}</Button>
             </div>
             <div className="post-card-content-container">
               <div className="arrow-img">

@@ -25,7 +25,7 @@ const Tags = () => {
       </div>
 
       <div className="tags-btn">
-        <ButtonGroup>
+        <ButtonGroup className="btn-continer">
           <Button className="tags-btn1"> Bce </Button>
           <Button className="tags-btn1"> Новости </Button>
           <Button className="tags-btn1"> Игры </Button>

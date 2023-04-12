@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: white;
   max-width: 658px;
   gap: 14px;
   border-radius: 16px;
@@ -16,6 +15,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #ffff;
+    border-radius: 16px;
     @include sm {
       width: 100%;
     }
@@ -25,7 +26,7 @@
       .post-img-btn {
         position: absolute;
         left: 0;
-        top: 8%;
+        top: 16%;
         bottom: 0;
         padding: 8px 12px;
         height: 35px;
@@ -38,6 +39,9 @@
         text-transform: inherit;
         color: #8d00d0;
         margin-left: 24px;
+        @include sm {
+          top: 8%;
+        }
       }
       img {
         border-top-left-radius: 16px;
