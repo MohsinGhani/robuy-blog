@@ -6,9 +6,9 @@ import Tags from "./tags";
 const Blog = () => {
   return (
     <>
-      {/* <Header /> */}
-      {/* <Tags /> */}
-      {/* <BlogDetails /> */}
+      <Header />/
+      <Tags />
+      <BlogDetails />
     </>
   );
 };
